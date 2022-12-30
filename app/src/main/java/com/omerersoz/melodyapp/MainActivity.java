@@ -29,7 +29,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     public static final int REQUEST_CODE=1;
-    ArrayList<MusFiles> musFiles;
+     static ArrayList<MusFiles> musFiles;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

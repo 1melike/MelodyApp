@@ -11,13 +11,11 @@ import android.view.ViewGroup;
 
 public class AlbumFragment extends Fragment {
 
-    //Kotlin üzerinden yazsanız daha temiz olabilirdi bence
+
     public AlbumFragment() {
         // Required empty public constructor
     }
 
-
-    //Uygulamada hata yok gibi, sorunu öğrenebilir miyim?
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
