@@ -43,7 +43,7 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MyVieHolder>
     public void onBindViewHolder(@NonNull MyVieHolder holder, int position) {
         ObjectInputStream.GetField mfiles = null;
         assert mfiles != null;
-        Objects.<MyVieHolder>requireNonNull(holder).file_name.setText(mfiles.get(position).getTitle());
+        Objects.<MyVieHolder>requireNonNull(holder).file_name.setText(mFiles.get(position).getTitle());
          byte[] image=getAlbumArt(mFiles.get(position).getPath);
          if(image!=null)
          {
